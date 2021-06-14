@@ -272,6 +272,7 @@ const Menu = (props) => {
           </div>
         </div>
       </section>
+     
       <Container>
         <UikitMenu
           account={account}
@@ -287,6 +288,8 @@ const Menu = (props) => {
           {...props}
         />
       </Container>
+    
+
     
       <footer>
         <div className="container colorfooter">
