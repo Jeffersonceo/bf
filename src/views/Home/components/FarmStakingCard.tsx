@@ -16,10 +16,22 @@ import useAllEarnings from '../../../hooks/useAllEarnings'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('/images/alife/2a.png');
+  background-image: url('/images/egg/2.png');
   background-repeat: no-repeat;
   background-position: top right;
-  min-height: 376px;
+  min-height: 176px;
+  @media (max-width: 1300px) {
+    background-image: url('/images/egg/2-p.png');
+  }
+`
+
+const Title = styled.h1`
+  font-size: 2.5em;
+  text-align: left;
+  color: #DAB481;
+  @media (max-width: 1300px) {
+    font-size: 24px !important;
+  }
 `
 
 const Block = styled.div`
@@ -68,12 +80,13 @@ const FarmedStakingCard = () => {
   return (
     <StyledFarmStakingCard>
       <CardBody>
-        <Heading color="#9f0d0d" size="xl" mb="24px">
-          {TranslateString(542, 'Farms & Staking')}
-        </Heading>
-        <CardImage src="/images/alife/2.png" alt="cake logo" width={64} height={64} />
+      
+        <Title>
+        {TranslateString(542, 'Farms & Staking')}
+      </Title>
+        <CardImage src="/images/alife/2.png" alt="botboobam" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'ALIFE to Harvest')}</Label>
+          <Label>{TranslateString(544, 'BOOBFUT to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(alifePrice * earningsSum).toFixed(2)}</Label>
         </Block>

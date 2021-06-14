@@ -11,15 +11,15 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Trade $VLAD',
+        label: 'Trade $BOOBAM',
         href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x279d41f3f78fe5c1f0ba41ae963d6e545113c973',
       },
       {
-        label: 'Trade $LIFE',
+        label: 'Trade $PRT',
         href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x50f4220C82c9325dC99f729C3328FB5c338BEaae',
       },
       {
-        label: 'Buy $ALIFE',
+        label: 'Buy $BOOBFUT',
         href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x42bA7BbDDEcb471c1e1Fe08636918952b6C19019',
       },
       {
@@ -29,7 +29,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farm Alife',
+    label: 'Farm Boobfut',
     icon: 'FarmIcon',
     href: '/farms',
   },
@@ -58,18 +58,18 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/vladprotocol',
+        href: 'https://github.com/boobamfinance',
       },
       {
         label: 'Token Facts',
         href: 'https://vlad.finance/token-facts',
       },
       {
-        label: 'Announcements',
-        href: 'https://twitter.com/VladFinance',
+        label: 'Twitter',
+        href: 'https://twitter.com/boobamfinance',
       },
       {
-        label: 'What is Vlad.Finance',
+        label: 'Boobam Finance',
         href: 'https://vlad-finance.medium.com/introducing-vlad-token-and-the-path-to-immortality-ce96990fdf66/',
       },
       // {
@@ -79,12 +79,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Gordian Audit Passed',
+    label: 'Partnerships',
     icon: 'NftIcon',
     href: 'https://gordian.agency',
   },
   {
-    label: 'SOLIDITY Audit Coming Soon',
+    label: 'SOLIDITY come Soon',
     icon: 'NftIcon',
     href: '#',
   },

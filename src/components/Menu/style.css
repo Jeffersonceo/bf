@@ -1,9 +1,9 @@
 .body-bg {
-    background-color: #27262c;
+    background-color: rgb(255, 255, 255);
 }
 
 nav {
-    margin-top: 84px!important;
+    margin-top: 40px!important;
 }
 
 @media (max-width: 667px){
@@ -42,7 +42,7 @@ nav ~ div > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
 
 nav ~ div > div:nth-child(2) {
 	margin-left: 0px;
-	background-image: url(./bg-background.jpg);
+	background-image: url(./banner-bg.svg);
     background-size: cover;
     background-position: 79% -3px;
     background-repeat: no-repeat;
@@ -71,17 +71,17 @@ a:hover {
 .topsmnav-bg{
     position: fixed;
     width: 100%;
-    background: rgb(159,13,13);
+    background: rgb(246, 246, 246);
     z-index: 111;
-    top: -40px;
-    padding: 8px 0;
+    top: 0px;
+    padding: 0px 0 8px 0;
 }
 .container-wrap1{
     width:98%;
     margin:0 auto;
 }
 .tp-sm-wrap {
-    margin-top: 45px!important;
+    margin-top: 3px!important;
 }
 .tp-audio{
     width: 70%;
@@ -110,7 +110,7 @@ a:hover {
     align-items: center;
 }
 .tp-vlad li a{
-    color: #360404;
+    color: #363104;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
@@ -121,7 +121,7 @@ a:hover {
 .top-sm-nav li a div img, .tp-audio li a img {
     width: 22px;
     height: 22px;
-    border: 1px solid #b33535;
+    border: 1px solid #b1b335;
     border-radius: 50%;
 }
 .top-sm-nav li a{
@@ -167,7 +167,7 @@ a:hover {
  .btn-first{
     z-index: 1;
      display: inline-block;
-    background: #390404;
+    background: #a07b4c;
     padding: 6px 10px;
     border-radius: 25px;
     box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.59);
@@ -225,10 +225,10 @@ a:hover {
  /* Start of Customized Live App CSS */
  /***************Start of  CSS to be Replaced***************/
  .couJlx {
-    fill: rgb(159,13,13)!important;
+    fill: #c8db18!important;
 }
 .hYmWca {
-    fill: rgb(172,58,58)!important;
+    fill: #9bac3a!important;
 }
 .btn-wallet{
     margin-right: 15px;
@@ -250,15 +250,15 @@ a:hover {
     font-weight: 400;
     font-size: 34px;
     line-height: 46px;
-    color: #ed3e3e;
-    text-shadow: 0 0 15px rgb(185 13 13 / 50%), 0 0 3px rgb(238 238 238 / 25%), 0 0 6px #ed3e3e;
+    color: #a07b4c;
+    text-shadow: 0 0 15px rgb(185 13 13 / 50%), 0 0 3px rgb(238 238 238 / 25%), 0 0 6px #dbed3e;
 
 }
 .ctm-block h3{
     color: #fff;
     font-size: 28px;
     margin-bottom: 30px;
-    text-shadow: 0 0 15px rgb(185 13 13 / 50%), 0 0 3px rgb(238 238 238 / 25%), 0 0 6px #ed3e3e;
+    text-shadow: 0 0 15px rgb(185 13 13 / 50%), 0 0 3px rgb(238 238 238 / 25%), 0 0 6px #dbed3e;
 }
 .ctm-heading p{
     color:#fff;
@@ -297,7 +297,7 @@ a:hover {
 }
 .dSzsnB{
     background-color: transparent!important;
-    box-shadow:rgb(159,13,13) 4px 0px 0px inset!important;
+    box-shadow:rgb(145, 159, 13) 4px 0px 0px inset!important;
     height: 48px!important;
 
 }

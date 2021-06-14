@@ -9,9 +9,11 @@ import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 
+
+
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/alife/3.png');
+
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -22,11 +24,22 @@ const Hero = styled.div`
   padding-top: 116px;
   text-align: center;
 
+  
+
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/alife/3.png'), url('/images/alife/3b.png');
-    background-position: left center, right center;
-    height: 165px;
+
+    background-position:  center;
+    height: 30px;
     padding-top: 0;
+  }
+`
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+  @media (max-width: 1300px) {
+    font-size: 24px !important;
   }
 `
 
@@ -59,10 +72,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="#9f0d0d">
-          {TranslateString(576, 'Vlad Finance')}
-        </Heading>
-        <Text>{TranslateString(578, 'Come for the Immortality. Stay for the NFTs.')}</Text>
+        <Title>Purchase your BOBA tokens for farming and exchange them for exclusive NFTs.</Title>
       </Hero>
       <div>
         <Cards>

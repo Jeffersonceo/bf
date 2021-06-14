@@ -12,6 +12,16 @@ const StyledTotalValueLockedCard = styled(Card)`
   flex: 1;
 `
 
+const Title = styled.h1`
+  font-size: 2.5em;
+  text-align: left;
+  color: #DAB481;
+  margin-bottom: 20px;
+  @media (max-width: 1300px) {
+    font-size: 24px !important;
+  }
+`
+
 const TotalValueLockedCard = () => {
   const TranslateString = useI18n()
 
@@ -21,9 +31,9 @@ const TotalValueLockedCard = () => {
   return (
     <StyledTotalValueLockedCard>
       <CardBody>
-        <Heading color="#9f0d0d" size="lg" mb="24px">
+        <Title>
           {TranslateString(999, 'Total Value Locked (TVL)')}
-        </Heading>
+        </Title>
         <>
           {/* <Heading size="xl">{`$${tvl}`}</Heading> */}
           {/* <Heading size="xl"> */}

@@ -27,12 +27,10 @@ export interface FarmsProps {
 
 const CustomCard = styled(Card)`
   margin-bottom: 20px;
-  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(110 80 20 / 40%), inset 0 -2px 5px 1px rgb(139 66 8),
-    inset 0 -1px 1px 3px rgb(250 227 133);
-  background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
-  border: 1px solid #a55d07;
+ 
+
+
   color: red;
-  text-shadow: 0 2px 2px #b90d0d;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -43,7 +41,7 @@ const CustomCard = styled(Card)`
 const CustomText = styled(Text)`
   font-size: 18px;
   font-weight: bolder;
-  text-shadow: 1px 2px 2px #b90d0d;
+  
 `
 
 const Farms: React.FC<FarmsProps> = (farmsProps) => {
@@ -141,8 +139,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
     <EpicProvider>
       <NftProvider>
         <Page>
-          <Heading as="h1" size="xl" color="primary" mb="70px" style={{ textAlign: 'center' }}>
-            NEW ALIFE FARMING HAS STARTED
+          <Heading as="h1" size="xl" color="primary" mb="70px" style={{ textAlign: 'center', color: '#fff' }}>
+            NEW BOOBAM FARMING HAS STARTED
           </Heading>
 
           <Button
@@ -195,7 +193,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
               </Route>
             </FlexLayout>
           </div>
-          <Image src="/images/alife/8.png" alt="illustration" width={1352} height={587} responsive />
         </Page>
       </NftProvider>
     </EpicProvider>

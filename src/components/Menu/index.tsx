@@ -27,7 +27,7 @@ import soundCloudLogo from './soundcloud.png'
 
 const Footer = styled.div`
   height: 400px;
-  background: #171717;
+  background: #fff;
   width: 100%;
   text-align: center;
   padding: 20px;
@@ -56,18 +56,18 @@ const SocialFooter = styled(Social)`
 `
 
 const Container = styled.div`
-  margin-top: 85px;
+  margin-top: 40px;
 
   @media (max-width: 667px) {
-    margin-top: 167px;
+    margin-top: 40px;
   }
 
   @media (max-width: 348px) {
-    margin-top: 203px!important;
+    margin-top: 40px!important;
   }
 
   @media (max-width: 321px) {
-    margin-top: 219px!important;
+    margin-top: 40px!important;
   }
 }
 `
@@ -110,7 +110,7 @@ const SocialLink = styled.a`
 `
 
 const FooterCopyRight = styled.div`
-  color: white;
+  color: black;
 `
 
 const InlineDiv = styled.div`
@@ -119,9 +119,7 @@ const InlineDiv = styled.div`
 
 const AudioPlayer = styled.audio`
   margin-right: 10px;
-  @media (max-width: 1300px) {
-    width: 100px;
-  }
+
 `
 
 const AudioDescription = styled.span`
@@ -198,55 +196,7 @@ const Menu = (props) => {
     <div className="body-bg">
       <section className="topsmnav-bg mb-4">
         <div className="container-wrap1">
-          <div className="tp-sm-wrap">
-            <div className="tp-vlad">
-              <ul>
-                <li>
-                  <a href="https://vlad.finance" target="_blank" rel="noreferrer">
-                    Vlad.Finance
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="tp-audio">
-              <div className="tp-inner">
-                <span>DJ Ezra - Live in the Afterlife</span>
-                <audio controls>
-                  <source src="/DJ-Ezra-live-in-the-afterlife.mp3" type="audio/mpeg" />
-                  <track kind="captions" />
-                </audio>
-                <a href="https://soundcloud.com/dj_ezra_is_back" target="_blank" rel="noreferrer">
-                  DJ - Ezra on on #SoundCloud
-                </a>
-              </div>
-            </div>
-            <div className="top-sm-nav">
-              <ul>
-                <li>
-                  <a href="https://t.me/VladFinanceOfficial" target="_blank" rel="noreferrer">
-                    <div>
-                      <img src={telegramLogo} className="img-fluid" alt="telegram" />
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://vlad-finance.medium.com" target="_blank" rel="noreferrer">
-                    <div>
-                      <img src={mediumLogo} className="img-fluid" alt="medium" />
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/VladFinance" target="_blank" rel="noreferrer">
-                    <div>
-                      <img src={twitterLogo} className="img-fluid" alt="twitter" />
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="clear-fix" />
-          </div>
+          
           <div className="tp-btns">
             <ul>
               <li>
@@ -333,38 +283,39 @@ const Menu = (props) => {
           setLang={setSelectedLanguage}
           cakePriceUsd={cakePriceUsd.toNumber()}
           links={config}
-          priceLink="https://bscscan.com/token/0x50f4220C82c9325dC99f729C3328FB5c338BEaae"
+          priceLink="https://bscscan.com/token/0x5481a517028813956005d77bcd0f561c7276b1e3"
           {...props}
         />
       </Container>
+    
       <footer>
-        <div className="container">
+        <div className="container colorfooter">
           <div className="row">
             <div className="col-sm-12 col-md-3 footer-logoblock">
               <ul className="footer-logo">
                 <li>
-                  <a href="https://vlad.finance" target="_blank" rel="noreferrer">
-                    <img src={vladLogo} className="img-fluid" alt="Vlad Finance" />
+                  <a href="https://boobam.finance" target="_blank" rel="noreferrer">
+                    <img src={vladLogo} className="img-fluid" alt="Boobam Finance" />
                   </a>
                 </li>
               </ul>
-              <h4 style={{ color: 'white' }}>Vlad.Finance</h4>
-              <p>
-                Come for the Immortality. <br /> Stay for the NFTs.
+              <h4 style={{ color: 'black' }}>BoobamFinance.com</h4>
+              <p style={{ color: 'black' }}>
+                Come for the best. <br /> Stay for the NFTs.
               </p>
               <ul className="footermenu">
                 <li>
-                  <a href="https://vlad.finance/token-facts" target="_blank" rel="noreferrer">
+                  <a href="https://boobam.finance/token-facts" target="_blank" rel="noreferrer">
                     TOKEN FACTS
                   </a>
                 </li>
                 <li>
-                  <a href="https://vlad.finance/nft" target="_blank" rel="noreferrer">
+                  <a href="https://boobam.finance/nft" target="_blank" rel="noreferrer">
                     NFTs
                   </a>
                 </li>
                 <li>
-                  <a href="https://vlad.finance/team" target="_blank" rel="noreferrer">
+                  <a href="https://boobam.finance/team" target="_blank" rel="noreferrer">
                     TEAM
                   </a>
                 </li>
@@ -373,7 +324,7 @@ const Menu = (props) => {
             <div className="col-sm-12 col-md-9 footer-sm">
               <div className="row">
                 <div className="col-sm-12 col-md-3">
-                  <h6 style={{ color: 'white' }}>COMMUNITY</h6>
+                  <h6 style={{ color: 'black' }}>COMMUNITY</h6>
                   <ul>
                     <li>
                       <a href="https://t.me/VladFinanceOfficial" target="_blank" rel="noreferrer">
@@ -382,13 +333,13 @@ const Menu = (props) => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://vlad-finance.medium.com/" target="_blank" rel="noreferrer">
+                      <a href="https://vlad-boobam.medium.com/" target="_blank" rel="noreferrer">
                         <img src={mediumLogo} className="img-fluid" alt="" />
                         Medium
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/VladFinance" target="_blank" rel="noreferrer">
+                      <a href="https://twitter.com/boobamFinance" target="_blank" rel="noreferrer">
                         <img src={twitterLogo} className="img-fluid" alt="" />
                         Twitter
                       </a>
@@ -396,7 +347,7 @@ const Menu = (props) => {
                   </ul>
                 </div>
                 <div className="col-sm-12 col-md-3">
-                  <h6 style={{ color: 'white' }}>$VLAD</h6>
+                  <h6 style={{ color: 'black' }}>$BOBA</h6>
                   <ul>
                     <li>
                       <a
@@ -408,14 +359,14 @@ const Menu = (props) => {
                         BSCScan
                       </a>
                     </li>
-                    <li>
+                    <li >
                       <a
                         href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x279d41f3f78fe5c1f0ba41ae963d6e545113c973"
                         target="_blank"
                         rel="noreferrer"
                       >
                         <img src="../images/fpancakeswap.svg" className="img-fluid" alt="" />
-                        Buy $VLAD
+                        Buy $BOBA
                       </a>
                     </li>
                     <li>
@@ -428,19 +379,19 @@ const Menu = (props) => {
                         DexGuru
                       </a>
                     </li>
-                    <li>
+                    <li className="fdeactive">
                       <a href="https://www.coingecko.com/en/coins/vlad-finance" target="_blank" rel="noreferrer">
                         <img src="../images/fcoingecko.svg" className="img-fluid" alt="" />
                         CoinGecko
                       </a>
                     </li>
-                    <li>
+                    <li className="fdeactive">
                       <a href="https://coinmarketcap.com/currencies/vlad-finance/" target="_blank" rel="noreferrer">
                         <img src="../images/fcoinmarketcap.svg" className="img-fluid" alt="" />
                         CoinMarketCap
                       </a>
                     </li>
-                    <li>
+                    <li className="fdeactive">
                       <a
                         href="https://goswappcharts.web.app/?isbsc=true&tokenId=0x279d41f3f78fe5c1f0ba41ae963d6e545113c973"
                         target="_blank"
@@ -450,13 +401,13 @@ const Menu = (props) => {
                         GoSwapp
                       </a>
                     </li>
-                    <li>
+                    <li className="fdeactive">
                       <a href="https://nomics.com/assets/vlad-vlad-finance" target="_blank" rel="noreferrer">
                         <img src="../images/fnomics.svg" className="img-fluid" alt="" />
                         Nomics
                       </a>
                     </li>
-                    <li>
+                    <li className="fdeactive">
                       <a href="https://www.livecoinwatch.com/price/VladFinance-VLAD" target="_blank" rel="noreferrer">
                         <img src="../images/fLiveCoinWatch.svg" className="img-fluid" alt="" />
                         LiveCoinWatch
@@ -465,7 +416,7 @@ const Menu = (props) => {
                   </ul>
                 </div>
                 <div className="col-sm-12 col-md-3">
-                  <h6 style={{ color: 'white' }}>$LIFE</h6>
+                  <h6 style={{ color: 'black' }}>$PRT</h6>
                   <ul>
                     <li>
                       <a
@@ -484,10 +435,10 @@ const Menu = (props) => {
                         rel="noreferrer"
                       >
                         <img src="../images/fpancakeswap.svg" className="img-fluid" alt="" />
-                        Buy $LIFE
+                        Buy $PRT
                       </a>
                     </li>
-                    <li>
+                    <li >
                       <a
                         href="https://dex.guru/token/0x50f4220c82c9325dc99f729c3328fb5c338beaae-bsc"
                         target="_blank"
@@ -497,7 +448,7 @@ const Menu = (props) => {
                         DexGuru
                       </a>
                     </li>
-                    <li>
+                    <li className="fdeactive">
                       <a
                         href="https://goswappcharts.web.app/?isbsc=true&tokenId=0x50f4220C82c9325dC99f729C3328FB5c338BEaae"
                         target="_blank"
@@ -525,8 +476,13 @@ const Menu = (props) => {
                     </li>
                   </ul>
                 </div>
+
+
+
+
+
                 <div className="col-sm-12 col-md-3">
-                  <h6 style={{ color: 'white' }}>$aLIFE</h6>
+                  <h6 style={{ color: 'black' }}>$BOOBFUT</h6>
                   <ul>
                     <li>
                       <a
@@ -545,7 +501,7 @@ const Menu = (props) => {
                         rel="noreferrer"
                       >
                         <img src="../images/fpancakeswap.svg" className="img-fluid" alt="" />
-                        Buy $ALIFE
+                        Buy $BOOBFUT
                       </a>
                     </li>
                     <li className="fdeactive">
@@ -578,7 +534,7 @@ const Menu = (props) => {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-12 col-md-12 fo-copyright">&copy; Vlad Finance.All Rights Reserved</div>
+            <div className="col-sm-12 col-md-12 fo-copyright">&copy;2021 Boobam Finance .All Rights Reserved</div>
           </div>
         </div>
       </footer>

@@ -33,12 +33,12 @@
     margin: 107px 0px 0px;
 }
 .inner-banner-text h1, .side-logo h3, .nftfactsec h1{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size:40px;
 }
 .inner-banner-text h1, .side-logo h3, .nftfactsec h1, .nft-note h4, .breakdown h1, .team-heading h2{
     font-family:'Reggae One', cursive;
-    text-shadow: 0px 0px 15px rgba(185, 13, 13, 0.5), 0px 0px 3px rgba(238, 238, 238, 0.25), 0px 0px 6px #B90D0D;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5), 0px 0px 3px rgba(238, 238, 238, 0.25), 0px 0px 6px #b97d0d;
 }
 .side-content h4{
     font-family:'Reggae One', cursive;
@@ -50,7 +50,7 @@
     display: block;
     border-radius: 50%;
     margin: 25px 20px 0px 0px;
-    background: rgba(185, 13, 13, 0.15);
+    background: rgba(200, 221, 9, 0.15);
     box-shadow: inset 1.16px -1.16px 1.16px rgb(185 13 13 / 40%), inset -1.16px 1.16px 1.16px rgb(255 255 255 / 40%);
     backdrop-filter: blur(11.6px);
     -webkit-backdrop-filter: blur(11.6px);
@@ -129,7 +129,7 @@
     text-transform: uppercase;
 }
 .side-content h4{
-    color:#B90D0D;
+    color:#b97d0d;
     font-size:20px;
     line-height: 32px;
     margin-bottom: 0 !important;
@@ -210,17 +210,17 @@
     -moz-border-radius: 7.5px;
     -webkit-border-radius: 7.5px;
     border-radius: 7.5px;
-    /* background-color: #B90D0D; */
+    /* background-color: #b97d0d; */
     margin-right: 8px;
   }
   .fair-bar, .fair::before, .current-bar, .current::before{
-      background: #B90D0D;
+      background: #b97d0d;
   }
   .treasury-bar, .treasury::before, .burned-bar, .burned::before{
-    background: #6B0909;
+    background: #0f0707;
 }
 .vc-bar, .vc::before{
-    background:#4F0606;
+    background:#000000;
     ;
 }
 .progress{
@@ -263,10 +263,10 @@
       background: #ffffff;
   }
   .emission::before, .emission-bar{
-    background: #9F0D0D;
+    background: #9A6B0C;
 }
 .atreasury::before, .atreasury-bar{
-    background: #6B0909;
+    background: #9A6B0C;
 }
 .surprise::before, .surprise-bar{
     background: #F2C94C;
@@ -279,7 +279,7 @@
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #B90D0D;
+    background-color: #b97d0d;
     filter: blur(1px);
     -webkit-filter: blur(1px);
 }
@@ -289,11 +289,11 @@
 /* NFT Fact CSS */
 .nftfact-block{
     padding:20px;
-    border: 2px solid #B90D0D;
+    border: 2px solid #b97d0d;
     box-sizing: border-box;
     /* Red Neon */
     border-radius: 8px;
-    box-shadow: 0px 0px 6px rgb(185 13 13 / 50%), 0px 0px 3px rgb(238 238 238 / 25%), 0px 0px 4px #b90d0d;
+    box-shadow: 0px 0px 6px rgb(185 13 13 / 50%), 0px 0px 3px rgb(238 238 238 / 25%), 0px 0px 4px #b97d0d;
 }
 .nft-head{
     margin:35px 0px;
@@ -316,7 +316,7 @@
 }
 .nft-head p a{
     text-decoration: none;
-    color:#B90D0D;
+    color:#b97d0d;
 }
 .nft-smcontent p span{
     float:right;
@@ -334,7 +334,7 @@
     align-items: center;
 }
 .nft-note h4{
-    color: #B90D0D;
+    color: #b97d0d;
     margin-right:25px;
 }
 .nft-note h4 span{
@@ -350,9 +350,9 @@
 .life-table{
     margin:25px auto;
     width:80%;
-    border: 2px solid #B90D0D;
+    border: 2px solid #b97d0d;
     box-sizing: border-box;
-    box-shadow: 0px 0px 6px rgb(185 13 13 / 50%), 0px 0px 3px rgb(238 238 238 / 25%), 0px 0px 4px #b90d0d;
+    box-shadow: 0px 0px 6px rgb(185 13 13 / 50%), 0px 0px 3px rgb(238 238 238 / 25%), 0px 0px 4px #b97d0d;
     border-radius: 8px;
     padding: 30px;
 }
@@ -453,12 +453,12 @@ line-height: 22px;
     margin-right:12px;
 }
 .team-sm li a:hover{
-    box-shadow: inset 0.4px -0.4px 0.4px rgba(185, 13, 13, 0.4), inset -0.4px 0.4px 0.4px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0.4px -0.4px 0.4px rgba(0, 0, 0, 0.4), inset -0.4px 0.4px 0.4px rgba(255, 255, 255, 0.4);
     background: rgba(185, 13, 13, 0.1);
     transition: 300ms;
-}
+} 
 .team-sm img:hover{
-    fill: rgba(185, 13, 13);
+    fill: rgb(0, 0, 0);
 
 }
 .team-sm li a i{

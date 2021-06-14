@@ -24,6 +24,20 @@ const Row = styled.div`
 `
 
 const AnnouncementHeading = styled(Heading)`
+  font-size: 2.5em;
+  text-align: left;
+  color: #DAB481 !importat;
+
+  @media (max-width: 1300px) {
+    font-size: 24px !important;
+  }
+`
+
+const Title = styled.h1`
+  font-size: 2.5em;
+  text-align: left;
+  color: #DAB481;
+  margin-bottom: 20px;
   @media (max-width: 1300px) {
     font-size: 24px !important;
   }
@@ -35,13 +49,13 @@ const TwitterCard = () => {
   return (
     <StyledTwitterCard>
       <CardBody>
-        <AnnouncementHeading color="#9f0d0d" size="xl" mb="24px">
+        <Title >
           {TranslateString(10003, 'Announcements')}
-        </AnnouncementHeading>
+        </Title>
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'VladFinance',
+            screenName: 'boobamtoken',
           }}
           options={{
             height: '300',
